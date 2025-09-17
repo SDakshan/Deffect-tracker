@@ -1,0 +1,172 @@
+/* Projects.css */
+
+.projects-container {
+  padding: 20px;
+  background-color: #f4f7fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects-container h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.projects-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1 1 180px;
+}
+
+.projects-form button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.projects-form button:hover {
+  background-color: #2980b9;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  background: #ecf0f1;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project-buttons button:first-child {
+  background-color: #f39c12;
+  color: white;
+}
+
+.project-buttons button:first-child:hover {
+  background-color: #d68910;
+}
+
+.project-buttons button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.project-buttons button:last-child:hover {
+  background-color: #c0392b;
+}
+/* Projects.css */
+
+.projects-container {
+  padding: 20px;
+  background-color: #f4f7fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects-container h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.projects-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1 1 180px;
+}
+
+.projects-form button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.projects-form button:hover {
+  background-color: #2980b9;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  background: #ecf0f1;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project-buttons button:first-child {
+  background-color: #f39c12;
+  color: white;
+}
+
+.project-buttons button:first-child:hover {
+  background-color: #d68910;
+}
+
+.project-buttons button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.project-buttons button:last-child:hover {
+  background-color: #c0392b;
+}
