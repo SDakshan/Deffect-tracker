@@ -24,7 +24,7 @@ function Employees() {
 
   const sendEmail = (email, code) => {
     const templateParams = { to_email: email, code };
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams, "YOUR_PUBLIC_KEY")
+    emailjs.send("service_hwimiwo", "template_ca5of29", templateParams, "JyF8cQZPegN3dBvKL")
       .then(() => alert("Verification code sent!"))
       .catch(err => alert("Failed to send email: " + err.text));
   };
